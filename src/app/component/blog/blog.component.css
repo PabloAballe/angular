@@ -1,0 +1,12 @@
+#blog{
+  float: right;
+  width: 300px;
+  height: 500px;
+  margin: 20px;
+  margin-top: 50px;
+}
+img{
+  height: 300px;
+  width: 270px;
+  margin: 5px;
+}
