@@ -1,5 +1,6 @@
 export const articulo = [
   {
+id:1,
     titulo: 'primer articulo',
     imagen:'./assets/articulos/gaelle-marcel-AmrO93lfBBE-unsplash.jpg',
     descripcion: 'descripcion del primer articulo',

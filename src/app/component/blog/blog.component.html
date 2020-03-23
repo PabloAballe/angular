@@ -4,6 +4,6 @@
   <div class="card-body">
     <h5 class="card-title">{{articulo.titulo}}</h5>
     <p class="card-text">{{articulo.descripcion}}</p>
-    <a href="#" class="btn btn-primary">Ver Articulo</a>
+    <a [title]="articulo.titulo" [routerLink]="articulo.titulo" class="btn btn-primary">Ver Articulo</a>
   </div>
 </div>

@@ -10,6 +10,7 @@ import { AboutComponent } from './component/about/about.component';
 import { ArticuloComponent } from './component/articulo/articulo.component';
 import { BlogComponent } from './component/blog/blog.component';
 import { NotfoundComponent } from './component/notfound/notfound.component';
+import { ContactComponent } from './component/contact/contact.component';
 
 
 
@@ -22,7 +23,8 @@ import { NotfoundComponent } from './component/notfound/notfound.component';
     AboutComponent,
     ArticuloComponent,
     BlogComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

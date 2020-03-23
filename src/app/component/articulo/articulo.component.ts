@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { articulo } from "../../../articulos";
+
 
 @Component({
   selector: 'app-articulo',
@@ -6,10 +9,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./articulo.component.css']
 })
 export class ArticuloComponent implements OnInit {
+articulo;
+  constructor( private route: ActivatedRoute,
+  ) { }
 
-  constructor() { }
+  ngOnInit() {
 
-  ngOnInit(): void {
   }
 
 }
